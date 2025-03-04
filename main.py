@@ -90,12 +90,12 @@ st.markdown("""
 st.title("Statistical Analysis Results for Amazon Stock in 2024")
 
 st.markdown("""
-### Question 1: Closing Price Statistics
+### Closing Price Statistics
 - **Mean:** 184.63  
 - **Median:** 183.43  
 - **Standard Deviation:** 17.43  
 
-### Question 2: Trading Volume Statistics
+### Trading Volume Statistics
 - **Range:** 126,440,900  
 - **Variance:** 2.64 × 10¹⁴  
 - **Standard Deviation:** 16,254,293.29  
@@ -132,7 +132,7 @@ st.markdown("""
 
 ---
 
-### Question 4: Trading Volume Probability Distribution
+### Trading Volume Probability Distribution
 
 **Results:**
 - **Medium Volume:** 50%
@@ -144,7 +144,7 @@ Trading volume predominantly falls into the *Medium* category, with equal probab
 
 ---
 
-### Question 5: Data Visualizations
+### Data Visualizations
 """)
 
 # Visualization images
@@ -173,7 +173,7 @@ st.markdown("""
 
 st.markdown("""
 ---
-### Question 6: Normality Test Results
+### Normality Test Results
 """)
 
 if os.path.exists("qq ing.png"):
@@ -201,7 +201,7 @@ W = 0.94885, p-value = 9.915e-08
 
 st.markdown("""
 ---
-### Question 7: Final Conclusions
+### Final Conclusions
 
 1. **Shapiro-Wilk Test**  
    p-value < 0.05 → Strong evidence against normality  
