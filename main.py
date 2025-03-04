@@ -116,7 +116,7 @@ st.markdown("""
 """)
 
 st.markdown("""
-### Question 3: Closing Price Categorization
+### Closing Price Categorization
 
 **Quartile Values:**
 - **1st Quartile (Q1):** 25th percentile closing price
