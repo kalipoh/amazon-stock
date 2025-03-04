@@ -3,7 +3,7 @@ import pandas as pd
 import os
 
 # Application title
-st.title("Statistics and Probability Questions Based on Amazon Stock Data (1997-2025)")
+st.title("Statistics and Probability Questions Based on Amazon Stock Data")
 
 # Question instructions
 st.markdown("""
